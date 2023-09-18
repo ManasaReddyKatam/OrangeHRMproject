@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test verbose="2" preserve-order="true" name="C:/Users/Admin/IdeaProjects/Demo">
+        <classes>
+            <class name="Test.Project15">
+                <methods>
+                    <include name="AddNationalities"/>
+                    <include name="EditNationalities"/>
+                    <include name="DeleteNationalities"/>
+                    <include name="VerifyReqFieldsAddNationalities"/>
+                    <include name="SelectAllFunctionality"/>
+                    <include name="DeleteAllFunctionality"/>
+                    <include name="NationalityPageVerify"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
